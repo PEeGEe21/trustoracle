@@ -484,6 +484,24 @@
         text-align: center;
     }
 
+    .code__block pre.code__block-color__green::-webkit-scrollbar{
+        width: 10px;
+        height: 3px;
+    }
+        
+    
+    .code__block pre.code__block-color__green::-webkit-scrollbar-track {
+        background-color: (rgb(48, 47, 47) 173, 173);
+    }
+    .code__block pre.code__block-color__green::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 1rem;
+        width: 0.1rem;
+        /* background-color: rgb(251, 235, 255); */
+        background: #D5E1F0;
+
+    }
+
     .tr__code__block .code__block .code__block__content{
         color: #fff;
     }
@@ -550,7 +568,7 @@
         }
         .tr__code__block .code__block{
             border-radius: 0px 0px 18px 18px;
-
+            padding: 1.2rem 1.2rem;
         }
 
         .tr__code__block .nav-tabs .nav-link{
