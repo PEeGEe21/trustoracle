@@ -407,6 +407,13 @@
     }
 
 
+    @media only screen and (max-width: 768px) {
+        .tr__section__ab .left-pattern{
+            width: 100%;
+        }
+        
+    }
+
 
 
 
