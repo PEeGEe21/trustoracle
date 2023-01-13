@@ -276,6 +276,12 @@
 
     }
 
+    @media screen and (max-width: 767px){
+        .hero2 {
+            padding-top: 130px;
+        }
+    }
+
 
 
 
