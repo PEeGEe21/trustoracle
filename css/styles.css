@@ -407,7 +407,7 @@
     }
 
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 991px) {
         .tr__section__ab .left-pattern{
             width: 100%;
         }
